@@ -1,0 +1,1 @@
+Prije pokretanja fajla test_login.py potrebno je da u bazi postoji korisnik sa username-om "Pero30" i password-om "testtest"

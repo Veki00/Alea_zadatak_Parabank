@@ -1,0 +1,19 @@
+
+{
+  "firstname" : "Pero",
+  "lastname" : "Peric",
+  "adress" : "Cara Dusana 10",
+  "city" : "Banja Luka",
+  "state" : "Bosna i Hercegovina",
+  "zip" : "78000",
+  "phone" : "051888999",
+  "snn" : "111223333",
+  "username" : "Pero",
+  "password" : "testtest",
+  "confirm_password" : "testtest",
+  "noMatching_conf_password" : "test",
+  "login_username": "Pero30",
+  "login_password": "testtest"
+}
+
+
