@@ -6,7 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
 from pageObjects.RegistrationPage import RegistrationPage
 from pageObjects.HomePage import HomePage
 
@@ -16,6 +15,7 @@ class TestRegistrationPage(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
+        #self.driver = webdriver.Firefox()
         self.driver.maximize_window()
         self.wait = WebDriverWait(self.driver, 10)
         self.driver.delete_all_cookies()

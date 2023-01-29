@@ -15,6 +15,7 @@ class TestRegistrationPage(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
+        # self.driver = webdriver.Firefox()
         self.driver.maximize_window()
         self.wait = WebDriverWait(self.driver, 10)
         self.driver.delete_all_cookies()
